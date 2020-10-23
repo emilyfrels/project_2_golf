@@ -1,0 +1,200 @@
+course_id,course,city,state,street,zip_code,lng,lat,hole,public_private,golf_season,beg_mnth,end_mnth,championship_par,championship_yards,championship_slope,championship_usga,middle_par,middle_yards,middle_slope,middle_usga,forward_par,forward_yards,forward_slope,forward_usga
+5254,A. H. Blank Golf Course,Des Moines,Iowa,808 County Line Rd,50320,-93.603597,41.5121487,18,Public,Open: 4/01 Closed: 11/01,4,10,72,6715,126,72.1,72,6435,121,71.2,72,5617,116,71.2
+8377,A. L. Gustin Golf Course,Columbia,Missouri,Stadium Blvd,65211,-92.3532908,38.9390821,18,Public,Open: 3/01 Closed: 10/31,3,10,70,6430,123,69.7,70,5951,119,67.4,70,4683,116,71.3
+15326,Abbey Springs Golf Course,Fontana,Wisconsin,S Shore Dr Route 1,53125,-88.4930948,42.5961619,18,Resort,Open: 4/01 Closed: 11/01,4,10,72,6468,133,71.4,72,6111,131,70.1,75,5341,129,72.4
+6103,Acadian Hills Golf Course,Lafayette,Louisiana,500 NW Frontage Rd,70501,-92.0140514,30.2510476,18,Private,year round,1,12,71,6585,114,70.8,71,6223,113,69.2,71,5163,112,69.8
+4632,Acorns Golf Links,Waterloo,Illinois,3933 Anne Rd,62298,-90.199375,38.294035,18,Public,year round,1,12,72,6701,125,72.3,72,6256,121,70.2,72,5497,129,72.2
+8336,Adams Point Golf Club,Blue Springs,Missouri,1601 Mize Rd,64014,-94.2071011,39.0212452,18,Public,year round,1,12,72,6938,131,73.8,72,6380,125,71.3,72,5060,114,68.1
+7673,Adrian Golf Course,Adrian,Minnesota,Hwy 91 S,56110,-95.9331334,43.6349616,9,Semi-Private,Open: 5/01 Closed: 10/01,5,9,36,3345,123,35.8,36,3140,120,35,36,2601,115,34.8
+7674,Albany Golf Club,Albany,Minnesota,500 Church St,56307,-94.570276,45.629083,18,Public,Open: 4/01 Closed: 11/01,4,10,72,6415,122,70,72,6023,119,68.2,74,5268,117,69.7
+7682,Albion Ridges Golf Course,Annandale,Minnesota,7771 20th St NW,55302,-94.048306,45.180102,18,Public,Open: 4/01 Closed: 11/01,4,10,72,6555,129,71.1,72,6190,126,69.4,72,4728,115,67.7
+4532,Aldeen Golf Club,Rockford,Illinois,1900 Reid Farm Rd,61107,-88.9878001,42.2932835,18,Public,Open: 4/01 Closed: 11/15,4,11,72,7058,130,73.9,72,6418,124,70.9,72,5038,116,69.2
+6028,Alexandria Golf & Country Club,Alexandria,Louisiana,Hwy 165 S,71301,-92.4494188,31.3266392,18,Private,year round,1,12,72,6595,122,71.6,72,6197,120,70.1,73,5503,122,72.6
+6101,Alpine Meadows Country Club,Keithville,Louisiana,5730 Meadowlake Dr,71047,-93.85217,32.3435233,18,Public,year round,1,12,72,6473,113,70.5,72,6118,110,69.2,72,5345,108,69.1
+5157,Amana Colonies Golf Course,Amana,Iowa,451 27th Ave,52203,-91.9049528,41.8085369,18,Public,Open: 3/15 Closed: 11/01,3,10,72,6824,136,73.3,72,6483,129,71.1,72,5228,115,69.7
+15671,American Legion Golf Course,Wausau,Wisconsin,1001 Golf Club Rd,54403,-89.6153879,44.9915425,9,Semi-Private,Open: 4/01 Closed: 11/01,4,10,34,2821,101,32.5,34,2672,98,31.8,34,2568,105,33.8
+5377,American Legion Memorial Golf Course,Marshalltown,Iowa,1301 S 6th St,50158,-92.9225607,42.0319256,18,Public,Open: 4/01 Closed: 11/01,4,10,70,6224,115,69.5,70,5890,111,68,71,5273,105,64.8
+15200,Amery Golf Club,Amery,Wisconsin,601 Deronda St,54001,-92.3730823,45.2999263,18,Semi-Private,year round,1,12,71,6286,122,69.4,71,5956,119,68,72,5289,119,69.6
+5158,Ames Golf & Country Club,Ames,Iowa,5725 George Washington Carver Ave,50010,-93.6593941,42.0757579,18,Private,Open: 4/01 Closed: 10/31,4,10,71,6515,116,72.1,71,6170,113,70.1,73,5485,116,72.2
+5826,Anderson at Anderson/Lindsey Golf Courses,Fort Knox,Kentucky,7955 Wilson Rd,40121,-85.9381257,37.8797922,18,Military,year round,1,12,72,6509,120,70,72,6207,117,68.8,72,5135,114,68.3
+5880,Andover Golf & Country Club,Lexington,Kentucky,3450 Todds Rd,40509,-84.4143146,38.0020005,18,Private,year round,1,12,72,6957,134,73.9,72,6100,126,70.1,72,5202,123,70.8
+13223,Andrew Johnson Golf Club,Greeneville,Tennessee,615 Lick Hollow Rd,37743,-82.865326,36.1319329,18,Public,year round,1,12,70,6103,114,68.1,70,5691,110,66.2,70,4776,113,66.6
+8249,Annandale Golf Club,Madison,Mississippi,100 Annandale Club Dr,39110,-90.194579,32.4996404,18,Private,year round,1,12,72,7157,135,75.4,72,6637,136,72.6,72,5888,121,68.5
+4630,Annbriar Golf Course,Waterloo,Illinois,1524 Birdie Ln,62298,-90.2014261,38.351756,18,Public,year round,1,12,72,6841,141,72.3,72,6407,135,69.1,72,4792,118,70.6
+15274,Antigo-Bass Lake Country Club,Deerbrook,Wisconsin,W 10650 Bass Lake Rd,54424,-89.1826267,45.3550506,18,Semi-Private,Open: 4/01 Closed: 11/01,4,10,71,6166,122,69.8,71,5913,120,68.6,71,5301,120,70.2
+3978,Antioch Golf Club,Antioch,Illinois,40150 N Route 59,60002,-88.1117543,42.446575,18,Public,year round,1,12,71,6251,117,69.7,71,6029,114,68.2,70,5456,112,72.4
+15216,Apostle Highlands Golf Course,Bayfield,Wisconsin,1433 Apostle Highlands Dr,54814,-90.8458378,46.8074111,18,Public,Open: 4/01 Closed: 11/01,4,10,72,6332,124,70.5,72,5887,120,68.4,72,5127,118,69.5
+7685,Appleton Golf Club,Appleton,Minnesota,331 E Wyman Ave,56208,-96.0118199,45.2065668,9,Public,Open: 4/01 Closed: 11/01,4,10,36,3053,113,69,36,2985,111,68.4,36,2564,113,69
+8112,Applewood Hills Golf Course,Stillwater,Minnesota,11840 60th St No,55082,-92.86749,45.037065,18,Public,Open: 4/01 Closed: 10/31,4,10,62,4180,92,59.1,62,3890,91,58.2,62,3510,94,59.1
+7896,Arbor Pointe Golf Club,Inver Grove Heights,Minnesota,8919 Cahill Ave E,55076,-93.0420816,44.8247057,9,Public,Open: 4/01 Closed: 10/01,4,9,31,2079,107,39.9,31,1900,104,30.9,31,1608,97,28
+4040,Arboretum Golf Club,Buffalo Grove,Illinois,401 Half Day Rd,60089,-87.9671578,42.1961734,18,Public,Open: 3/01 Closed: 12/01,3,11,72,6477,132,71.1,72,6113,128,69.5,72,5039,118,68.7
+15207,Arcadia Country Club,Arcadia,Wisconsin,Hwy 95 & Hwy 93,54612,-117.7357536,40.972833,9,Semi-Private,Open: 4/01 Closed: 10/01,4,9,35,2854,109,33.1,35,2751,107,32.6,35,2518,103,31.6
+683,Arlington at Hot Springs Golf & Country Club,Hot Springs,Arkansas,101 Country Club Dr,71901,-93.0312687,34.480055,18,Semi-Private,year round,1,12,72,6690,127,74.2,72,6517,126,73.1,73,5549,127,74.2
+5989,Arlington Golf Center,Richmond,Kentucky,1510 Lexington Rd,40475,-84.3122777,37.7601225,18,Private,year round,1,12,72,6638,125,71.5,72,6193,121,69.5,72,5142,116,68.5
+4229,Arlington Golf Club,Granite City,Illinois,Rural Route 1,62040,-90.1487199,38.7014389,18,Public,year round,1,12,72,6947,127,71.7,72,6520,125,70.3,72,5420,116,70.2
+3982,Arlington Lakes Golf Club,Arlington Heights,Illinois,1211 S New Wilkes Rd,60005,-88.0024796,42.0625188,18,Public,Open: 3/01 Closed: 11/01,3,10,68,5331,115,65.8,68,4976,110,64.1,68,4648,113,66.7
+4092,Arrowhead Country Club,Chillicothe,Illinois,19430 Centerville Rd,61523,-89.607109,40.9264755,18,Private,Open: 4/01 Closed: 10/31,4,10,72,6543,126,71.3,72,6317,123,70.5,72,5500,121,72.2
+5779,Arrowhead Golf Club,Cadiz,Kentucky,14 Arrowhead Blvd,42211,-87.9658274,36.8455682,18,Semi-Private,year round,1,12,72,6551,129,71.7,72,6084,124,69.6,72,5020,119,69.1
+15208,Ashland Elks Golf Club,Ashland,Wisconsin,Hwy 137,54806,-90.880098,46.5881045,18,Semi-Private,Open: 4/01 Closed: 10/31,4,10,72,6566,126,70.7,72,6257,123,69.3,72,5134,120,70.2
+5171,Atlantic Golf & Country Club,Atlantic,Iowa,102 W 29th St,50022,-95.0149142,41.3845175,18,Private,Open: 4/01 Closed: 11/01,4,10,69,6187,116,68.8,69,5746,113,67.5,70,5218,113,69.5
+4540,Atwood Homestead Golf Course,Rockford,Illinois,8990 Old River Rd,61103,-89.0537655,42.3924054,18,Public,Open: 4/01 Closed: 11/01,4,10,72,7470,120,74.3,72,6625,117,70.1,72,5818,116,72.6
+5919,Audubon Country Club,Louisville,Kentucky,3265 Robin Rd,40213,-85.7288343,38.1999932,18,Private,year round,1,12,72,6720,131,72.8,72,6340,128,71.1,74,5375,124,71.4
+6134,Audubon Golf Course,New Orleans,Louisiana,473 Walnut St,70118,-90.1273805,29.9334715,18,Public,year round,1,12,68,5739,96,64.4,68,5463,93,63.2,69,5181,115,70
+3989,Aurora Country Club,Aurora,Illinois,Prairie & Western Ave,60507,-95.8370172,37.1247941,18,Private,Open: 4/01 Closed: 10/31,4,10,72,6644,131,72.7,72,6367,128,71.4,72,5495,124,71.1
+7690,Austin Country Club,Austin,Minnesota,28th St NE,55912,-92.9299354,43.6744018,18,Private,Open: 4/01 Closed: 11/01,4,10,72,6520,127,71.3,72,6326,126,70.4,72,5425,128,71.3
+15654,Autumn Ridge Golf Course,Valders,Wisconsin,1 Straight Dr,54245,-87.8636007,43.9915346,18,Public,Open: 4/01 Closed: 11/01,4,10,70,5772,126,70,70,5444,122,68.4,70,4519,115,68
+8284,Azaleas at Dancing Rabbit Golf Club,Philadelphia,Mississippi,One Choctaw Trl,39350,-89.2055423,32.7720911,18,Resort,year round,1,12,72,7128,135,74.4,72,6537,130,72.1,72,4909,115,68.6
+7692,Babbitt Golf Course,Babbitt,Minnesota,2806 Hwy 21,55706,-91.9804108,47.7140659,9,Semi-Private,Open: 5/01 Closed: 10/01,5,9,35,3183,117,34.7,35,3022,114,34,36,2824,116,35.7
+8303,Back Acres Country Club,Senatobia,Mississippi,1013 Country Club Dr,38668,-89.9354701,34.5761463,18,Private,year round,1,12,72,6511,127,72,72,6006,120,69.7,72,4956,119,69.3
+7798,Back Nine/Front Nine at Enger Park Golf Course,Duluth,Minnesota,1801 W Skyline Pkwy,55806,-92.1269935,46.7768907,18,Public,Open: 4/01 Closed: 11/01,4,10,72,6554,124,71.3,72,6210,122,69.9,72,5550,124,72.7
+4623,Back/Front at Midlane Country Club,Wadsworth,Illinois,4555 W Yorkhouse Rd,60083,-87.9153996,42.4133525,18,Public,Open: 4/01 Closed: 10/31,4,10,72,7015,135,74.5,72,6670,132,71.3,73,5367,125,71.4
+15625,"Back/North at Springs Golf Club Resort, The",Spring Green,Wisconsin,5857 Golf Course Rd,53588,-90.0422842,43.1416319,18,Resort,Open: 4/01 Closed: 11/01,4,10,72,6534,134,71.9,72,6014,127,69.4,72,5285,125,70.6
+15521,Badger Creek Golf Course,New Holstein,Wisconsin,11501 Meggars Rd,53061,-88.0375447,43.9301018,18,Semi-Private,Open: 3/15 Closed: 11/01,3,10,72,6804,121,72.8,72,6392,118,70.6,72,5065,117,71.8
+692,Balboa at Hot Springs Village,Hot Springs Village,Arkansas,895 Desoto Blvd,71909,-92.970473,34.6709268,18,Private,year round,1,12,72,6725,133,72.7,72,6307,131,70.8,73,5362,130,71.8
+8329,Ballwin Golf Course,Ballwin,Missouri,333 Holloway Rd,63011,-90.5389856,38.6057337,9,Public,year round,1,12,36,3382,128,36,36,3155,122,34.6,37,2913,125,36.3
+7696,Balmoral Golf Course,Battle Lake,Minnesota,Route 3,56515,-95.7136582,46.2805162,18,Public,Open: 4/01 Closed: 10/15,4,10,72,6144,120,69.3,72,6004,119,68.7,72,5372,120,71.2
+4102,Balmoral Woods Country Club,Crete,Illinois,26732 S Balmoral Woods Dr,60417,-87.6128956,41.405361,18,Public,Open: 3/01 Closed: 11/01,3,10,72,6603,128,72.4,72,6284,125,70.9,72,5147,118,69.8
+13119,Baneberry Golf & Resort,Baneberry,Tennessee,704 Harrison Ferry Rd,37890,-83.2676466,36.0413316,18,Semi-Private,year round,1,12,71,6735,125,72.6,71,6013,120,69.1,71,4602,115,68.2
+15213,Baraboo Country Club,Baraboo,Wisconsin,1010 Lake St,53913,-89.7341579,43.4574576,18,Semi-Private,Open: 4/01 Closed: 10/31,4,10,72,6570,124,71.3,72,6286,121,70,72,5681,124,72.5
+6055,Barksdale AFB Golf Course,Bossier City,Louisiana,185 Bossier Rd,71111,-93.6895624,32.5023367,18,Military,year round,1,12,70,5904,117,68.7,70,5568,113,67.1,71,5075,112,69.3
+5923,Barren River Lake State Resort Park Golf Course,Lucas,Kentucky,1149 State Park Rd,42156,-86.0622282,36.8587898,18,Resort,year round,1,12,72,6440,124,69.1,72,5942,122,68.4,72,4919,114,66.6
+3995,Barrington Hills Country Club,Barrington,Illinois,300 W County Line Rd,60010,-88.165957,42.1553958,18,Private,Open: 4/01 Closed: 10/31,4,10,71,6795,136,72.9,71,6619,134,72.1,73,5925,132,75.1
+4001,Bartlett Hills Golf Club,Bartlett,Illinois,800 W Oneida Ave,60103,-88.1957147,41.9949106,18,Public,Open: 4/01 Closed: 11/30,4,11,71,6482,124,71.2,71,6188,123,70.6,71,5488,121,71.8
+6036,Baton Rouge Country Club,Baton Rouge,Louisiana,8551 Jefferson Hwy,70809,-91.0967149,30.4200048,18,Private,year round,1,12,72,6850,125,72.3,72,6463,122,70.5,72,5367,113,72.8
+8176,Bay Pointe Resort & Golf Club,Brandon,Mississippi,800 Bay Pointe Dr,39047,-89.9604849,32.393298,18,Semi-Private,year round,1,12,72,6511,123,71.1,72,5788,116,68.4,72,4485,112,66.3
+649,Bay Ridge Boat & Golf Club,Dardanelle,Arkansas,Bay Ridge Rd,72834,-93.2075334,35.2556793,18,Semi-Private,year round,1,12,72,6289,123,70.1,72,5802,118,67.5,72,4827,118,67.9
+8493,Bay View Golf Course,Linn Creek,Missouri,Rural Route 2,65052,-92.7115732,38.0380899,9,Public,year round,1,12,70,2747,126,34.4,70,2614,114,32.3,70,1975,105,31
+6124,Bayou de Siard Golf Course,Monroe,Louisiana,3501 Forsythe Ave,71201,-92.0953396,32.5457295,18,Private,year round,1,12,72,6830,127,71.9,72,6465,124,70.3,72,5288,115,69.7
+13377,Bays Mountain Golf Course,Seymour,Tennessee,685 Chris Haven Dr,37865,-83.8149256,35.8549473,18,Public,year round,1,12,70,6060,121,67.3,70,5480,117,65.1,74,4944,109,67
+8240,Bear Creek Golf Club,Laurel,Mississippi,Hwy 84 W Bear Ten Creek Rd,39440,-89.1894872,31.69459,18,Semi-Private,year round,1,12,72,6482,118,70.3,72,6059,114,68.5,72,4771,110,69.9
+8636,Bear Creek Golf Club,Wentzville,Missouri,158 Bear Creek Dr,63385,-90.8970035,38.8180304,18,Public,year round,1,12,72,7003,140,73.7,72,6490,133,71.3,72,5525,130,71.5
+7810,Bearpath Golf & Country Club,Eden Prairie,Minnesota,18100 Bearpath Trl,55347,-93.505847,44.8429913,18,Private,Open: 4/01 Closed: 10/15,4,10,72,7030,140,74.2,72,6610,137,72.2,72,5776,141,73.7
+8263,Beau Pre Country Club,Natchez,Mississippi,40 Club Dr,39120,-91.3592316,31.4559042,18,Semi-Private,year round,1,12,72,6935,130,73.3,72,6442,122,70.9,72,5124,116,69.1
+13292,Beauty at Royal Oaks Country Club,Maryville,Tennessee,4411 Legends Way,37801,-84.0108634,35.7315083,9,Semi-Private,year round,1,12,36,3127,129,36,36,3082,126,34.1,36,2194,111,33.7
+13258,Beaver Brook Golf & Country Club,Knoxville,Tennessee,2910 Cunningham Rd,37918,-83.9494868,36.0655267,18,Private,year round,1,12,70,5964,119,69.3,70,5672,116,67.9,75,5105,119,70.4
+5305,Beaver Creek Golf Course,Grimes,Iowa,11200 NW Towner Dr,50111,-93.770056,41.72092,18,Public,Open: 4/01 Closed: 10/31,4,10,72,6685,121,71.8,72,6207,117,69.7,72,5245,122,70.4
+5200,Beaver Hills Country Club,Cedar Falls,Iowa,8230 Beaver Hills Dr,50613,-92.5087306,42.5700346,18,Private,Open: 4/01 Closed: 10/31,4,10,72,6848,126,73,72,6550,123,71.6,72,5276,114,70.7
+4671,Belk Park Golf Course,Wood River,Illinois,880 Belk Park Rd,62095,-90.0447456,38.8639858,18,Public,year round,1,12,72,6812,121,71.5,72,6457,118,70.7,73,5709,118,71.8
+13333,Belle Meade Country Club,Nashville,Tennessee,815 Belle Meade Blvd,37205,-86.8611265,36.0899766,18,Private,year round,1,12,72,6820,136,73.6,72,6465,132,72.5,72,5087,128,71.8
+6113,Belle Terre Country Club,La Place,Louisiana,111 Fairway Dr,70068,-90.4964943,30.0864889,18,Semi-Private,year round,1,12,72,6840,130,72.2,72,6320,125,69.2,72,5510,122,71.6
+5751,Bellefonte Country Club,Ashland,Kentucky,208 Country Club Dr,41101,-82.6929788,38.4906166,18,Private,year round,1,12,70,6080,108,68.4,70,5902,107,67.7,71,5049,107,68.2
+8568,Bellerive Country Club,Saint Louis,Missouri,12925 Ladue Rd,63141,-90.4826897,38.6590874,18,Private,year round,1,12,71,7177,144,75,71,6812,138,73.5,72,5265,126,71
+7879,Bellwood Oaks Golf Course,Hastings,Minnesota,13239 210th St E,55033,-92.8380218,44.6492963,18,Public,Open: 4/01 Closed: 11/01,4,10,73,6775,123,72.5,73,6507,121,71.2,74,5707,126,72.3
+689,Belvedere Country Club,Hot Springs National Park,Arkansas,385 Belvedere Dr,71901,-93.009407,34.5451318,18,Semi-Private,year round,1,12,72,6767,130,73.1,72,6204,126,70.1,72,5395,127,70.5
+7705,Bemidji Town & Country Club,Bemidji,Minnesota,Birchmont Beach Rd,56601,-94.6505674,47.5410511,18,Semi-Private,Open: 4/01 Closed: 11/01,4,10,72,6535,127,71.8,72,6210,124,70.3,72,5058,120,69.1
+5964,Ben Hawes at Ben Hawes State Park,Owensboro,Kentucky,400 Boothfield Rd,42301,-87.1882613,37.7968342,18,Public,year round,1,12,71,6632,118,71,71,6372,116,70.1,76,5371,115,70
+7707,Benson Golf Club,Benson,Minnesota,2222 Atlantic Ave,56215,-95.6128376,45.3187515,18,Public,Open: 4/01 Closed: 11/01,4,10,72,6360,129,70.7,72,6059,126,69.5,72,4853,116,68.6
+7811,Bent Creek Golf Club,Eden Prairie,Minnesota,14490 Valley View Rd,55344,-93.4615671,44.8712864,18,Private,Open: 4/01 Closed: 11/01,4,10,71,6405,127,71.7,71,6045,124,70,72,5456,128,72.1
+8442,Bent Creek Golf Club,Jackson,Missouri,2200 Bent Creek Dr,63755,-89.6420438,37.3918234,18,Public,year round,1,12,72,6548,132,70.7,72,6014,126,68.2,72,5149,112,69.8
+13215,Bent Creek Golf Resort,Gatlinburg,Tennessee,3919 E Parkway,37738,-83.3465444,35.7610155,18,Resort,year round,1,12,72,6182,127,70.3,72,5802,123,67.9,73,5111,117,69.2
+8529,Bent Oak Golf Club,Oak Grove,Missouri,1300 SE 30th St,64075,-94.1131491,38.9862081,18,Public,year round,1,12,72,6855,134,73.1,72,6606,132,71.2,73,5480,119,71
+5761,Benton Golf & Country Club,Benton,Kentucky,1830 Golf Course Rd,42025,-88.3631812,36.844497,18,Semi-Private,year round,1,12,72,6442,117,68.9,72,5715,113,66.8,72,4518,107,65.1
+622,Berksdale at Bella Vista Village Golf Courses,Bella Vista,Arkansas,101 Town Center,72714,-94.2490178,36.4751938,18,Private,year round,1,12,72,6366,115,69.6,72,6016,112,68.3,71,5001,120,68.8
+15607,Berms/River Woods at Sheboygan Town & Country Golf Club,Sheboygan,Wisconsin,W 1945 County Hwy J,53083,-89.4226383,44.7048131,18,Public,Open: 4/01 Closed: 11/30,4,11,72,6222,112,69.6,71,5449,115,66,71,5059,117,68.6
+8347,Berry Hill Golf Course,Bridgeton,Missouri,11919 Berry Hill Rd,63044,-90.398772,38.7632514,9,Public,Open: 2/15 Closed: 12/15,2,12,36,3101,115,35.4,36,2762,115,35.5,37,2526,110,34.2
+5976,Best Western Park Mammoth Resort,Park City,Kentucky,US 31 W,42160,-86.0464428,37.0941305,18,Resort,year round,1,12,70,6073,114,68,70,5718,111,66.4,74,5299,114,69
+4084,Beverly Country Club,Chicago,Illinois,8700 S Western Ave,60620,-87.684832,41.7309539,18,Private,Open: 4/15 Closed: 10/31,4,10,71,6826,133,72.9,71,6556,131,71.9,72,5999,129,74.3
+13314,Big Creek Golf Club,Millington,Tennessee,6195 Woodstock Cuba Rd,38053,-89.9988343,35.2876256,18,Semi-Private,year round,1,12,72,7052,121,72.8,72,6406,116,69.5,72,5086,111,69.6
+15327,Big Foot Country Club,Fontana,Wisconsin,770 Shabbona Dr,53125,-88.57521,42.542048,18,Private,Open: 4/01 Closed: 11/01,4,10,73,6656,137,73.4,73,6428,134,72.3,76,5735,121,69.8
+8299,Big Oaks Golf Course,Saltillo,Mississippi,3481 Big Oaks Blvd,38866,-88.6888497,34.3088953,18,Public,year round,1,12,72,6784,124,73.1,72,6194,118,70.2,72,5098,114,69.1
+4331,Big Run Golf Club,Lockport,Illinois,17211 W 135th St,60441,-88.038345,41.640082,18,Public,Open: 4/01 Closed: 11/30,4,11,72,7010,142,74.2,72,6690,138,72.7,74,5975,135,74.6
+5920,Big Spring Country Club,Louisville,Kentucky,5901 Dutchmans Ln,40205,-85.6481721,38.2319435,18,Private,Open: 4/16 Closed: 10/01,4,9,72,6736,128,71.9,72,6458,125,70.6,72,5375,121,70.4
+3996,Biltmore Country Club,Barrington,Illinois,160 Biltmore Dr,60010,-88.1350104,42.199631,18,Private,Open: 4/01 Closed: 10/15,4,10,71,6652,134,72.3,71,6400,131,71.1,74,5717,130,73
+5762,Birmingham Pointe Golf Club,Benton,Kentucky,805 Valhalla Ln,42025,-88.245685,36.880185,18,Semi-Private,year round,1,12,72,6645,147,73.1,72,6155,133,70.6,72,4773,121,64.4
+15474,Bishop's Bay Country Club,Middleton,Wisconsin,4201 Hwy M,53711,-89.4519764,43.1188379,18,Private,Open: 4/01 Closed: 11/01,4,10,72,7160,132,74.8,72,6740,128,72.8,72,5397,122,71.4
+4238,Bittersweet Golf Club,Gurnee,Illinois,875 Almond,60031,-87.9816724,42.3718689,18,Public,Open: 3/15 Closed: 11/15,3,11,72,6813,130,72.8,72,6316,126,71.1,72,5027,115,69.6
+7693,Black Bear Golf Course,Backus,Minnesota,2898 16th St SW,56435,-94.4880363,46.7482404,9,Public,Open: 4/15 Closed: 10/15,4,10,36,3346,125,35.5,36,3191,122,34.8,36,2565,110,34.4
+8006,Black Brook at Izatys Golf & Yacht Club,Onamia,Minnesota,40005 85th Ave,56359,-93.5875291,46.1262046,18,Resort,Open: 4/01 Closed: 11/01,4,10,72,6867,140,74.2,72,6391,136,72.1,72,5119,122,71.1
+4554,Black Hawk Golf Club,Saint Charles,Illinois,5 N 748 Burr Rd,60175,-88.3653882,41.9509171,18,Public,Open: 3/01 Closed: 10/31,3,10,72,6547,132,72.5,72,6213,129,70.8,72,5111,124,70.9
+15452,Black River Country Club,Medford,Wisconsin,County Hwy O,54451,-90.351918,45.1205045,9,Semi-Private,Open: 4/01 Closed: 10/01,4,9,35,3043,119,35,35,2825,115,34.1,36,2548,123,36.8
+4039,Blackberry Oaks Golf Club,Bristol,Illinois,2245 Kennedy Rd,60512,-88.4076286,41.6904023,18,Public,Open: 4/01 Closed: 11/30,4,11,72,6332,125,70.5,72,5900,121,68.7,72,5218,123,70.8
+13379,Blackberry Ridge Golf Club,Shelbyville,Tennessee,3824 Hwy 231 No,37160,-86.425222,35.639929,18,Semi-Private,year round,1,12,71,6700,127,71.7,71,6207,123,69.6,71,4885,117,68.5
+15434,Blackhawk Country Club,Madison,Wisconsin,3606 Blackhawk Dr,53705,-89.4546313,43.0793191,18,Private,Open: 4/01 Closed: 10/31,4,10,72,6118,124,70,72,5872,122,68.9,73,5319,122,71.5
+4024,Bloomingdale Golf Course,Bloomingdale,Illinois,181N Glen Ellen Rd,60108,-88.06002,41.952601,18,Public,Open: 4/01 Closed: 10/01,4,9,70,6082,108,68.2,70,5940,107,67.5,70,5489,111,70.5
+4027,Bloomington Country Club,Bloomington,Illinois,605 Towanda Ave,61701,-88.9726419,40.4837886,18,Private,Open: 4/01 Closed: 11/01,4,10,71,6505,127,71.9,71,6395,126,71.5,73,5784,122,73.6
+4363,Blue at Boone Creek Golf Course,McHenry,Illinois,6912 Mason Hill Rd,60050,-88.3341142,42.307517,18,Public,Open: 3/01 Closed: 11/30,3,11,71,6524,114,69.5,71,6062,108,67.1,71,5213,110,68.6
+4313,Blue at Cog Hill Golf Club,Lemont,Illinois,12294 Archer Ave,60439,-87.9632304,41.665869,18,Public,year round,1,12,71,6329,117,69.6,71,6024,114,68.3,72,5594,118,71.3
+4187,Blue at Green Garden Country Club,Frankfort,Illinois,9511 W Manhattan Monee Rd,60423,-87.839278,41.4214674,18,Public,year round,1,12,72,6637,112,70.2,72,6287,110,68.2,72,5557,110,69.5
+4141,Blue at Lacoma Golf Club,East Dubuque,Illinois,8080 Timmerman,61025,-90.6263813,42.4893491,18,Public,Open: 4/01 Closed: 11/01,4,10,71,6695,123,71.8,71,6272,119,70.6,71,5784,117,70
+4564,Blue at University of Illinois Golf Course,Savoy,Illinois,800 Hartwell Dr,61874,-88.2579228,40.046536,18,Public,Open: 3/01 Closed: 12/15,3,12,73,6579,114,70.4,73,6423,112,69.6,74,6129,118,74.1
+5508,Blue at Willow Creek Golf Course,West Des Moines,Iowa,140 Army Post Rd,50265,-93.7035344,41.5248784,9,Public,year round,1,12,33,2438,113,31.5,33,2308,109,30.9,33,2120,115,32.5
+8454,Blue Hills Country Club,Kansas City,Missouri,777 W Burning Tree Dr,64145,-94.6020778,38.8992527,18,Private,Open: 4/01 Closed: 10/31,4,10,72,7033,132,74,72,6567,126,72,72,5541,120,72
+4172,Blue Needle Golf Course,Fairmount,Illinois,9202 Blue Needle Dr,61841,-87.7627723,40.0774922,18,Public,Open: 3/01 Closed: 11/01,3,10,72,6081,116,68.9,72,5759,112,67.2,72,4907,101,63.1
+15391,Blue Spruce at Brighton Dale Links,Kansasville,Wisconsin,830 248th Ave,53139,-88.1106163,42.6513533,18,Public,Open: 4/01 Closed: 11/01,4,10,72,6687,129,72,72,6382,126,70.6,72,5628,125,72.1
+15638,Blue/ Red at Ives Grove Golf Links,Sturtevant,Wisconsin,14101 Washington Ave,53177,-87.95821,42.726354,18,Public,Open: 4/01 Closed: 11/01,4,10,72,7000,131,73,72,6495,124,70.6,72,5370,121,70.4
+13181,Blue/Red at Dandridge Golf & Country Club,Dandridge,Tennessee,1247 Stonewall Jackson Dr,37725,-83.4062414,36.0470871,18,Public,year round,1,12,72,6083,126,69.3,72,5739,121,67.7,72,4879,116,68
+15341,Blue/Red at Lake Park Golf Club,Germantown,Wisconsin,N112W17300 Mequon Rd,53022,-88.1248398,43.2216777,18,Public,Open: 4/01 Closed: 11/01,4,10,73,6672,126,71.9,73,6315,122,70.4,73,5875,124,73.6
+15691,Blue/Red at Lake Windsor Golf Club,Windsor,Wisconsin,4628 Golf Rd,53598,-89.3524765,43.2072665,18,Public,Open: 4/01 Closed: 11/01,4,10,72,5980,115,68,72,5797,115,68,72,5140,115,72
+15224,Blue/Red at Mascoutin Golf Club,Berlin,Wisconsin,County Truck A off Hwy 49,54923,-88.9442093,43.9680379,18,Semi-Private,Open: 4/01 Closed: 10/31,4,10,72,6883,130,72.9,72,6341,125,70.4,72,5118,120,69.4
+15466,Blue/Red at Mequon Country Club,Mequon,Wisconsin,12400 N Ville du Parc Dr,53092,-87.9527266,43.2433921,18,Private,Open: 4/01 Closed: 10/31,4,10,72,6749,129,72.8,72,6436,126,71.4,72,5505,123,71.8
+4256,Blue/Red at Northmoor Country Club,Highland Park,Illinois,820 Edgewood Rd,60035,-87.7926687,42.1663184,18,Private,Open: 4/01 Closed: 11/01,4,10,71,6759,131,72.6,71,6588,129,71.7,71,5152,119,70.6
+7700,Blue/Red at Pebble Creek Country Club,Becker,Minnesota,14000 Club House Dr,55308,-93.8649339,45.4040958,9,Public,Open: 4/01 Closed: 11/01,4,10,36,3297,129,72.4,36,2969,124,70.1,36,2539,125,71.1
+15320,Blue/Red at Rolling Meadows Golf Course,Fond du Lac,Wisconsin,560 W Rolling Meadows Dr,54937,-88.4765385,43.7546836,18,Public,Open: 4/01 Closed: 11/01,4,10,72,6988,129,73.5,72,6483,124,71.2,72,5406,121,71
+4408,Blue/Red at White Eagle Golf Club,Naperville,Illinois,3400 Club Dr,60564,-88.2159133,41.7229724,18,Private,Open: 4/01 Closed: 10/31,4,10,72,7076,139,74.5,72,6531,132,71.7,72,5048,124,70.4
+15497,Blue/White at Fox Hills Resort & Conference,Mishicot,Wisconsin,300 W Church St,54228,-87.6522171,44.2310985,18,Resort,Open: 4/01 Closed: 11/01,4,10,71,6044,123,69.1,71,5780,120,67.9,72,5390,120,70.9
+15692,Blue/White at Lake Windsor Golf Club,Windsor,Wisconsin,4628 Golf Rd,53598,-89.3524765,43.2072665,18,Public,Open: 4/01 Closed: 11/01,4,10,72,6154,118,68.5,72,5956,118,68.5,72,5212,118,73
+15463,Blue/White at North Shore Country Club,Mequon,Wisconsin,3100 W Country Club Dr,53092,-87.9495592,43.2154448,18,Private,Open: 4/01 Closed: 11/01,4,10,72,6815,131,73.2,72,6412,127,71.4,72,5378,123,71.2
+4251,Blue/White at Northmoor Country Club,Highland Park,Illinois,820 Edgewood Rd,60035,-87.7926687,42.1663184,18,Private,Open: 4/01 Closed: 11/01,4,10,70,6470,128,71.2,70,6302,127,70.6,70,5026,118,69.5
+7908,Blue/White at Tartan Park Golf Course,Lake Elmo,Minnesota,11455 20th St No,55042,-92.8696966,44.9779394,18,Private,Open: 4/01 Closed: 11/01,4,10,72,6855,127,72.1,72,6471,124,70.6,72,5580,127,71.6
+7953,Blueberry Pines Golf Club,Menahga,Minnesota,Hwy 71 No,56464,-95.0957455,46.7498494,18,Public,Open: 4/01 Closed: 11/01,4,10,72,6693,135,72.6,72,6393,132,71.4,72,5024,123,69.5
+13231,Bluegrass Yacht & Country Club,Hendersonville,Tennessee,550 Johnny Cash Pkwy,37075,-86.5783172,36.3230131,18,Private,year round,1,12,72,6641,129,72.3,72,6315,126,71.2,72,5102,126,70.2
+7747,Bluff Creek Golf Course,Chaska,Minnesota,1025 Creekwood St,55318,-93.5503279,44.822628,18,Public,Open: 4/01 Closed: 11/01,4,10,70,6359,119,70.4,70,6234,118,69.8,76,5785,125,73.2
+6154,"Bluffs on Thompson Creek, The",Saint Francisville,Louisiana,Hwy 965 at Freeland Rd,70748,-91.2626956,30.820975,18,Resort,year round,1,12,72,7154,143,74.6,72,6644,135,71.7,72,4781,123,69
+628,Blytheville Country Club,Blytheville,Arkansas,Hwy 61 No,72315,-89.9188123,35.9272876,18,Private,year round,1,12,71,6647,115,70.7,71,6115,110,68,72,5527,113,70.2
+5896,Bob White-South & West at Quail Chase Golf Club,Louisville,Kentucky,7000 Cooper Chapel Rd,40229,-85.6321632,38.1097991,18,Public,year round,1,12,72,6585,124,70.5,72,6385,122,69.2,72,5128,116,68.2
+5873,Bob-O-Link Golf Club,Lawrenceburg,Kentucky,1014 Mary Elizabeth Ln,40342,-84.9325471,38.0122807,18,Semi-Private,year round,1,12,71,6430,109,69.2,71,5925,108,68.4,71,4889,105,67.5
+15601,"BOG, The",Saukville,Wisconsin,3121 Hwy I,53080,-87.9804566,43.3675406,18,Semi-Private,Open: 4/20 Closed: 11/15,4,11,72,7110,142,74.9,72,6613,137,72.4,72,5110,124,70.3
+8554,Bogey Hills Country Club,Saint Charles,Missouri,1120 Country Club Rd,63303,-90.5382641,38.7847376,18,Private,year round,1,12,71,6621,125,73,71,6271,131,71.3,72,5069,117,69.8
+4634,Bonnie Brook Golf Course,Waukegan,Illinois,2800 N Lewis Ave,60087,-87.8573252,42.4031529,18,Public,Open: 4/01 Closed: 12/01,4,11,72,6701,126,72.4,72,6341,122,70.8,73,5559,124,72.2
+15476,Bonny Meade at Oak Ridge Golf Course,Milton,Wisconsin,1238 Bowers Lake Rd,53563,-88.9272951,42.7871966,9,Public,Open: 4/01 Closed: 12/31,4,12,36,3132,117,35,36,2902,114,34,36,2636,111,34.8
+8325,Boone Valley Golf Club,Augusta,Missouri,1319 Schluersburg Rd,63332,-90.87101,38.627549,18,Private,Open: 2/15 Closed: 12/15,2,12,72,6950,141,74.2,72,6216,130,70.3,72,5024,116,69.8
+8602,Bootheel Golf Club,Sikeston,Missouri,1218 N Ingram Rd,63801,-89.5648139,36.9018983,18,Public,year round,1,12,72,6891,123,73,72,6649,119,70.8,72,5838,114,68.5
+5780,Boots Randolph Golf Course,Cadiz,Kentucky,US Hwy 68 & Hwy 1489,42211,-83.9584069,38.4538791,18,Resort,year round,1,12,72,6791,131,72.7,72,6448,127,70.6,72,5191,121,70.2
+5421,Bos Landen Golf Club,Pella,Iowa,2411 Bos Landen Dr,50219,-92.9461282,41.3899045,18,Public,Open: 4/01 Closed: 10/31,4,10,72,6932,133,73.5,72,6480,130,71.4,72,5155,122,70.9
+4300,Boulder Ridge Country Club,Lake in the Hills,Illinois,350 Boulder Dr,60102,-88.3568363,42.1829349,18,Private,Open: 4/01 Closed: 11/15,4,11,72,7003,134,73.9,72,6600,130,71.8,72,5199,119,69.9
+5770,Bowling Green Country Club,Bowling Green,Kentucky,251 Beech Bend Rd,42101,-86.431899,37.0099819,18,Private,year round,1,12,72,6729,123,72.3,72,6406,120,70.9,72,5277,116,70.3
+7916,Brackett's Crossing Country Club,Lakeville,Minnesota,17976 Judicial Rd,55044,-93.3139089,44.6861741,18,Private,Open: 4/01 Closed: 11/10,4,11,71,6921,139,74.3,71,6551,136,72.7,71,5234,123,71.3
+13143,Brainerd Golf Course,Chattanooga,Tennessee,5203 Old Mission Rd,37411,-85.2200068,35.0148677,18,Public,Open: 1/01 Closed: 12/31,1,12,72,6468,119,69.8,72,6112,116,68.1,72,5403,118,69.9
+15245,Branch River Country Club,Cato,Wisconsin,3212 N Union Rd,54230,-87.768769,44.136539,18,Private,Open: 4/01 Closed: 10/31,4,10,72,6696,122,71.6,72,6450,120,70.5,72,5560,123,71.4
+5844,Breckenridge County Community Center,Hardinsburg,Kentucky,Hwy 261 S,40143,-86.46089,37.7800031,9,Semi-Private,year round,1,12,36,3362,123,35.7,36,3212,110,32.2,36,2614,116,34.4
+5942,Breckenridge Golf & Country Club,Morganfield,Kentucky,240 Whitaker Way,42437,-87.8768217,37.6907057,18,Semi-Private,year round,1,12,72,6602,114,70.4,72,6259,111,69,72,5369,113,70
+5186,Breda Golf Club,Breda,Iowa,Hwy 217 E,51436,-94.9769338,42.1816509,9,Public,year round,1,12,35,3045,105,34.1,35,2840,101,33.2,36,2430,108,35.2
+13127,Brentwood Country Club,Brentwood,Tennessee,5120 Country Club Dr,37027,-86.8050115,36.022074,18,Private,year round,1,12,71,6439,127,72.1,71,6047,123,68.6,71,5011,121,70.2
+13175,Briarwood at Cumberland Gardens Resort,Crab Orchard,Tennessee,Hwy 70 E,37723,-84.8783281,35.9087136,18,Resort,year round,1,12,72,6341,128,72.31,72,5910,124,70.31,72,5021,123,70.9
+4125,Briarwood Country Club,Deerfield,Illinois,355 Deerfield Rd,60015,-87.8368708,42.1660992,18,Private,Open: 3/15 Closed: 12/01,3,11,71,6810,130,73.2,71,6575,127,71.8,72,5889,127,74.1
+8257,Briarwood Country Club,Meridian,Mississippi,Briarwood Rd,39305,-88.6560651,32.4719778,18,Private,year round,1,12,72,6742,124,72.1,72,6493,114,70.9,74,5215,110,69.1
+6037,Briarwood Golf Club,Baton Rouge,Louisiana,13209 Airline Hwy,70817,-91.0341703,30.3760991,18,Public,year round,1,12,72,6879,121,71.2,72,6264,118,69.9,72,5493,119,70
+8164,"Bridges at Casino Magic, The",Bay Saint Louis,Mississippi,711 Casino Magic Dr,39520,-89.354864,30.334601,18,Resort,year round,1,12,72,6841,138,73.5,72,6272,132,70.3,72,5108,126,70.1
+7982,"Bridges of Mounds View, The",Mounds View,Minnesota,8290 Coral Sea Sr,55449,-93.1987978,45.1219851,9,Public,Open: 3/15 Closed: 11/15,3,11,32,2242,95,30.6,32,2036,91,29.7,32,1701,93,29.3
+15674,Bridges/Lakeview at Waushara Country Club,Wautoma,Wisconsin,2410 Hillside Dr,54982,-89.2529197,44.0645407,18,Semi-Private,Open: 4/01 Closed: 11/01,4,10,72,6324,124,70.8,72,5879,120,68.7,72,5399,121,71.2
+15232,Bristol Oaks Country Club,Bristol,Wisconsin,State Hwy 50,53104,-88.0501952,42.5682788,18,Public,Open: 4/01 Closed: 10/31,4,10,72,6319,117,69.2,72,5960,113,67.8,72,5437,118,71.4
+15618,Bristol Ridge Golf Course,Somerset,Wisconsin,1978 County Rd C,54025,-92.6323394,45.1477442,18,Public,year round,1,12,72,6582,128,72.1,72,6366,125,71.2,72,5132,122,69.9
+8168,Broadwater Beach Resort,Biloxi,Mississippi,200 Beauvoir Rd,39531,-88.9727587,30.3963196,18,Resort,year round,1,12,72,7140,134,74.1,72,6528,130,70.7,72,5398,120,70.4
+15234,Brookfield Hills Golf Club,Brookfield,Wisconsin,16075 Pinehurst Dr,53005,-88.113912,43.021825,18,Public,Open: 4/01 Closed: 11/01,4,10,62,4925,100,61.5,62,4430,96,60.1,62,3945,92,58.3
+5409,Brooks Golf Club,Okoboji,Iowa,Hwy 71 No,51355,-95.1287985,43.383707,18,Public,Open: 4/01 Closed: 10/31,4,10,70,6361,117,69.5,70,5899,114,68.5,70,5109,114,69.6
+8013,Brooktree Golf Course,Owatonna,Minnesota,1369 Cherry St,55060,-93.1995739,44.0943146,18,Public,Open: 4/01 Closed: 11/01,4,10,71,6684,122,72.1,71,6374,120,70.8,72,5534,122,71.6
+7863,Brookview Golf Course,Golden Valley,Minnesota,200 Brookview Pkwy,55426,-93.3856559,44.9759861,18,Public,Open: 4/01 Closed: 11/01,4,10,72,6369,127,70.3,72,6109,124,69.1,72,5463,124,71.4
+5822,Brookview/Ridgeview at Boone Links Golf Course,Florence,Kentucky,19 Clubhouse Dr,41042,-84.6834638,39.0114278,18,Public,year round,1,12,70,5950,118,68.4,70,5477,114,66.3,70,4725,105,62
+8233,Brookwood Country Club,Jackson,Mississippi,5001 Forest Hill Rd,39212,-90.265199,32.214554,18,Semi-Private,year round,1,12,72,6660,118,70.9,72,6335,116,69.9,74,5197,114,70
+13144,Brown Acres Golf Course,Chattanooga,Tennessee,406 Brown Rd,37421,-85.1978878,35.0121388,18,Public,year round,1,12,72,6774,122,72.5,72,6041,118,68.9,72,4923,110,66.1
+15541,Brown County Golf Course,Oneida,Wisconsin,897 Riverdale Dr,54155,-88.1495231,44.5263703,18,Public,Open: 4/01 Closed: 11/01,4,10,72,6729,133,72,72,6382,127,70.2,73,5814,127,72.8
+5233,Brown Deer Golf Club,Coralville,Iowa,1900 Country Club Dr,52241,-91.5674869,41.7020804,18,Semi-Private,Open: 3/01 Closed: 11/01,3,10,71,6315,126,71,71,5853,123,69.2,71,5367,116,66.4
+15485,Brown Deer Golf Club,Milwaukee,Wisconsin,7835 N Green Bay Rd,53209,-87.9507964,43.1630576,18,Public,Open: 4/01 Closed: 11/01,4,10,71,6716,132,72.6,71,6390,129,71,73,5927,132,73.9
+15411,Brute at Grand Geneva Resort & Spa,Lake Geneva,Wisconsin,7036 Grand Geneva Way,53147,-88.4051177,42.6097253,18,Resort,Open: 4/01 Closed: 11/01,4,10,72,6997,136,73.8,72,6554,131,71.9,74,5244,129,70
+4324,Bryn Mawr Country Club,Lincolnwood,Illinois,6600 N Crawford Ave,60629,-87.7299932,42.0016886,18,Private,Open: 4/01 Closed: 10/31,4,10,72,6548,127,71.5,72,6390,126,71.1,74,5880,125,73.7
+15486,Brynwood Country Club,Milwaukee,Wisconsin,6200 W Good Hope Rd,53223,-87.9884548,43.1500594,18,Private,Open: 4/01 Closed: 11/01,4,10,72,6661,132,72.6,72,6347,130,71.8,72,5674,124,69.5
+4041,Buffalo Grove Golf Course,Buffalo Grove,Illinois,48 Raupp Blvd,60089,-87.9683782,42.1530724,18,Public,year round,1,12,72,6892,120,71.5,72,6495,116,70.6,75,6023,122,73.5
+13398,Buffalo Valley Golf Course,Unicoi,Tennessee,90 Country Club Dr,37692,-82.3315646,36.2308983,18,Public,year round,1,12,71,6700,119,71.7,71,6288,116,70,72,4886,111,69.6
+4673,Bull Valley Golf Club,Woodstock,Illinois,1311 Club Rd,60098,-88.411332,42.306716,18,Private,Open: 4/01 Closed: 10/31,4,10,72,7319,147,76.5,72,6997,143,74.9,72,5157,128,72.1
+15702,Bull's Eye Country Club,Wisconsin Rapids,Wisconsin,1 Airport Ave,54494,-89.847278,44.365327,18,Private,Open: 4/01 Closed: 11/01,4,10,72,6638,131,72.3,72,6356,128,71.3,73,5741,129,73.6
+4506,Bureau Valley Country Club,Princeton,Illinois,Route 4,61356,-89.465254,41.395022,18,Private,Open: 3/15 Closed: 11/01,3,10,72,6337,125,70.5,72,6030,122,69.2,72,5052,118,69.1
+7980,Burl Oaks Golf Club,Mound,Minnesota,5400 N Arm Dr,55364,-93.66358,44.975135,18,Private,Open: 4/01 Closed: 11/01,4,10,71,6597,131,72.8,71,6212,127,71.1,72,5355,123,71.9
+5191,Burlington Golf Club,Burlington,Iowa,2124 Sunnyside Ave,52601,-91.1221199,40.8337162,18,Private,Open: 4/01 Closed: 11/01,4,10,72,6529,127,71.4,72,6139,122,69.6,72,5482,115,71.1
+4437,Butler National Golf Club,Oak Brook,Illinois,2616 York Rd,60523,-87.9334022,41.8405585,18,Private,Open: 4/01 Closed: 11/30,4,11,72,7335,144,76.6,72,6864,142,74.4,72,6365,134,71.8
+15600,Butternut Hills Golf Club,Sarona,Wisconsin,Golf Rd & County Rd B,54870,-87.8097092,42.0551508,18,Public,Open: 4/01 Closed: 11/01,4,10,70,5561,112,66.5,70,5334,110,65.4,72,4894,111,67.7
+4504,Byron Hills Golf Course,Port Byron,Illinois,23316 94th Ave No,61275,-90.301136,41.609088,18,Public,Open: 3/15 Closed: 11/15,3,11,71,6441,115,70.5,71,6017,113,69.1,71,5258,112,69.6
+6016,Cabin Brook Golf Course,Versailles,Kentucky,2260 Lexington Rd,40383,-84.6887257,38.0485391,18,Public,year round,1,12,72,7017,117,72.4,72,6332,110,69.1,72,5233,108,68.3
+4265,Calumet Country Club,Homewood,Illinois,175th & Western Ave,60430,-76.4180681,39.334658,18,Private,Open: 4/15 Closed: 10/15,4,10,71,6559,128,71.9,71,6326,124,70.7,72,5911,130,75
+5783,Calvert City Golf & Country Club,Calvert City,Kentucky,199 Country Club Ln,42029,-88.3299514,37.0204844,18,Semi-Private,year round,1,12,72,6762,111,70.3,72,6507,108,69.1,72,5416,109,69.3
+637,Camden Country Club,Camden,Arkansas,1915 W Washington Ave,71701,-92.8657909,33.5858943,18,Private,year round,1,12,70,6175,110,68.6,70,5938,108,67.7,70,5263,116,70.6
+15429,Camelot Country Club,Lomira,Wisconsin,W 192 Hwy 67,53048,-88.4055402,43.588025,18,Public,Open: 3/01 Closed: 11/01,3,10,70,6121,124,68.8,70,5871,122,67.8,72,5040,119,68.5
