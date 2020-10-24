@@ -35,16 +35,21 @@ d3.json("/test").then(function(data) {
 
 // select the button
 var button = d3.select("#filter-btn");
+var handicapButton = d3.select("#filter-btn-handicap");
 
 // select the form
 var form = d3.select("#form");
+var handicapForm = d3.select("#h-form");
 
 
 //event handlers for clicking button or pressing enter
 button.on("click", runEnter);
 form.on("submit", runEnter);
 
-// function to run for both events (button click or pressing enter)
+handicapButton.on("click", runEnterHandicap);
+handicapForm.on("submit", runEnterHandicap);
+
+// function to run for both events for search form(button click or pressing enter)
 function runEnter() {
 
     // prevent the page from refreshing
@@ -92,6 +97,35 @@ function runEnter() {
     });
 
 };
+
+//function to run to calculate handicap
+
+function runEnterHandicap() {
+
+    //prevent page from refresh
+    d3.event.preventDefault();
+
+    // select input elements
+    var scoreInputElement = d3.select("#score.form-control");
+    var gcourseInputElement = d3.select("#course-rating.form-control");
+    var slopeInputElement = d3.select("#slope.form-control");
+
+    // get value from input elements
+    var scoreInputValue = scoreInputElement.property("value");
+    var courseInputValue = gcourseInputElement.property("value");
+    var slopeInputValue = slopeInputElement.property("value");
+    
+    
+    console.log(`Score entered" ${scoreInputValue}`); 
+    console.log(`Course rating entered: ${courseInputValue}`);   
+    console.log(`Slope entered ${slopeInputValue}`);
+
+    var output = ((scoreInputValue - courseInputValue) * 113) / slopeInputValue;
+    console.log(`Handicap output: ${output}`);
+
+    document.getElementById("output").innerHTML = "<h5>Your Handicap: </h5>" + output.toFixed(2);
+
+}
 
 
 
