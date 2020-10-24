@@ -1,2 +1,4 @@
 // API key
-const API_KEY = "pk.eyJ1IjoiajJicm93bnMiLCJhIjoiY2tmeWxod2syMHd1ZzM0bm83NHlzaGF4OSJ9.vyFIPfr8ms73Rses9zyKQA";
+const API_KEY = "pk.eyJ1IjoiZW1pbHlmcmVscyIsImEiOiJja2Z5bDhsaTYxb2d4MnpwOTFsbGFpOTdjIn0.CJS6qhl_6W9Cbab_uqEW5w";
+const username = "postgres";
+const password = "0527";

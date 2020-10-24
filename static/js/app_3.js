@@ -14,7 +14,6 @@ d3.json("/test").then(function(data) {
 //d3.csv("/results/MissRiver_golf_details.csv").then(function(data) {
     golfData = data;
     console.log(golfData);
-
    
     golfData.forEach(function(courseData) {
         
@@ -31,11 +30,6 @@ d3.json("/test").then(function(data) {
 });
 
 
-
-
-// // add zip code box to form
-// var zipCode = d3.select("li").append("label").text("Enter a Zip Code");
-// var zipCodeInput = d3.select("li").append("input").attr("class", "form-control").attr("id", "zipCode");
 
 
 
