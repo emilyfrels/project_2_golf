@@ -14,7 +14,6 @@ d3.json("/test").then(function(data) {
 //d3.csv("/results/MissRiver_golf_details.csv").then(function(data) {
     golfData = data;
     console.log(golfData);
-
    
     golfData.forEach(function(courseData) {
         
@@ -33,24 +32,24 @@ d3.json("/test").then(function(data) {
 
 
 
-// // add zip code box to form
-// var zipCode = d3.select("li").append("label").text("Enter a Zip Code");
-// var zipCodeInput = d3.select("li").append("input").attr("class", "form-control").attr("id", "zipCode");
-
-
 
 // select the button
 var button = d3.select("#filter-btn");
+var handicapButton = d3.select("#filter-btn-handicap");
 
 // select the form
 var form = d3.select("#form");
+var handicapForm = d3.select("#h-form");
 
 
 //event handlers for clicking button or pressing enter
 button.on("click", runEnter);
 form.on("submit", runEnter);
 
-// function to run for both events (button click or pressing enter)
+handicapButton.on("click", runEnterHandicap);
+handicapForm.on("submit", runEnterHandicap);
+
+// function to run for both events for search form(button click or pressing enter)
 function runEnter() {
 
     // prevent the page from refreshing
@@ -98,6 +97,35 @@ function runEnter() {
     });
 
 };
+
+//function to run to calculate handicap
+
+function runEnterHandicap() {
+
+    //prevent page from refresh
+    d3.event.preventDefault();
+
+    // select input elements
+    var handicapIndexInputElement = d3.select("#score.form-control");
+    var gcourseInputElement = d3.select("#course-rating.form-control");
+    var slopeInputElement = d3.select("#slope.form-control");
+
+    // get value from input elements
+    var handicapIndexInputValue = handicapIndexInputElement.property("value");
+    var courseInputValue = gcourseInputElement.property("value");
+    var slopeInputValue = slopeInputElement.property("value");
+    
+    
+    console.log(`Handicap index entered" ${handicapIndexInputValue}`); 
+    console.log(`Course rating entered: ${courseInputValue}`);   
+    console.log(`Slope entered ${slopeInputValue}`);
+
+    var output = (handicapIndexInputValue * slopeInputValue) / 113
+    console.log(`Handicap output: ${output}`);
+
+    document.getElementById("output").innerHTML = "<h5>Your Course Handicap: </h5>" + output.toFixed(1);
+
+}
 
 
 
