@@ -106,24 +106,24 @@ function runEnterHandicap() {
     d3.event.preventDefault();
 
     // select input elements
-    var scoreInputElement = d3.select("#score.form-control");
+    var handicapIndexInputElement = d3.select("#score.form-control");
     var gcourseInputElement = d3.select("#course-rating.form-control");
     var slopeInputElement = d3.select("#slope.form-control");
 
     // get value from input elements
-    var scoreInputValue = scoreInputElement.property("value");
+    var handicapIndexInputValue = handicapIndexInputElement.property("value");
     var courseInputValue = gcourseInputElement.property("value");
     var slopeInputValue = slopeInputElement.property("value");
     
     
-    console.log(`Score entered" ${scoreInputValue}`); 
+    console.log(`Handicap index entered" ${handicapIndexInputValue}`); 
     console.log(`Course rating entered: ${courseInputValue}`);   
     console.log(`Slope entered ${slopeInputValue}`);
 
-    var output = ((scoreInputValue - courseInputValue) * 113) / slopeInputValue;
+    var output = (handicapIndexInputValue * slopeInputValue) / 113
     console.log(`Handicap output: ${output}`);
 
-    document.getElementById("output").innerHTML = "<h5>Your Handicap: </h5>" + output.toFixed(1);
+    document.getElementById("output").innerHTML = "<h5>Your Course Handicap: </h5>" + output.toFixed(1);
 
 }
 
