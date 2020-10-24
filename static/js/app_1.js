@@ -218,7 +218,7 @@ function initPlotCreate(courseData, courseSelect) {
     var middleSlope = parseInt(courseData.middle_slope);
     var championshipYards = parseInt(courseData.championship_yards);
     var championshipSlope = parseInt(courseData.championship_slope);
-    var courseName = courseData.course
+    var courseName = courseData.course;
     var openMonth = parseInt(courseData.beg_mnth);
     console.log(openMonth);
     var closeMonth = parseInt(courseData.end_mnth);
