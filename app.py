@@ -14,13 +14,11 @@ from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func,  inspect, distinct
 from sqlalchemy.types import Integer, Text, String, DateTime
-from config import ckey, username, password
+from config import username, password
 
 #############################################################
 #                      DATABASE SETUP                       #
 #############################################################
-
-
 
 #Setting up connection to SQL-Lite and Base Connections
 #This work is based on testing in Jupyter Notebook from Same Assignment
@@ -34,7 +32,7 @@ session = Session(engine)
 inspector = inspect(engine)
 
 ##loading column names
-#headings = []
+
 columns_df = []
 columns = inspector.get_columns('golf_details')
 for c in columns:
@@ -53,9 +51,11 @@ sel = [ golf_details.course_id,golf_details.course,golf_details.city,golf_detail
       golf_details.credit_card, golf_details.range, golf_details.rental_club, golf_details.pro_in_house,
       golf_details.metal_spikes_okay, golf_details.weekday, golf_details.weekend, golf_details.tee_time_welcomed,
       golf_details.rental_cart_available]#pulling only date and precipitation.
+
 golf_data = session.query(*sel).all() 
 
 ##putting data into dataframe
+## done if rather brute force way - opportunity to optimize at later date.
 golf_df = pd.DataFrame(columns = columns_df)
 print(len(golf_data))
 for i in range(0, len(golf_data)):
@@ -64,13 +64,8 @@ for i in range(0, len(golf_data)):
     for j in range(0,len(columns_df)):
         temp.append(record[j])
     golf_df.loc[i]=temp
-    ##print(golf_df)
 
 golf_dict = golf_df.to_dict(orient = 'records')
-
-
-
-
 #############################################################
 #                       FLASK SETUP                        #
 #############################################################
@@ -87,12 +82,13 @@ def home():
 
     return render_template("index.html") 
 
+# test route is used as the endpoint for the dataset.
 @app.route("/test")
 def test():
     
     return jsonify(golf_dict)
 
-#Define course route
+#Define search route
 
 @app.route("/search")
 def course():

@@ -2,26 +2,21 @@
 // console.log("golf data imported");
 // console.log(golf);
 
-// function getData() {
-//   courseData = d3.json("/test");
-//   // d3.json("/test").then(function(courseData) {
-//   data = courseData;
-//   return data;
-// };
-
+//Importing data from Flask Endpoing
 d3.json("/test").then(function(courseData) {
     courseSelect = 643;
     initPlotCreate(courseData, courseSelect);
     mapCreate(courseData);
 });  
 
+//creates initial plot with a manually selected course.
+//In this function all the data is passed to the routine and must
+//be filtered to find desired function.
 function initPlotCreate(courseData, courseSelect) {
-  //courseData = getData();
   console.log(`returned course data`);
   console.log(courseData);
-  //d3.csv("./results/course_subset2.csv").then(function(courseData) {
-  // console.log(`length of course data ${courseData.length}`)
-  // console.log(`first element in courseData ${courseData[3]}`)
+
+  //passing through array to find course and then grab specific data for plots
   for (var i=0; i < courseData.length; i++) {
       var course = courseData[i];
       //console.log(course);
@@ -45,11 +40,11 @@ function initPlotCreate(courseData, courseSelect) {
   };
   //******************************************************************************************************************************** */
   // Code below generates a doughnut plot to visualize golf season
-  // Setting up initial variables for demonstration.  these will need to be replaced with data from Flask
+  // Months will be used as labels for plot
   var months = ["Jan", "Feb", "Mar", "Apr","May", "Jun", "July", "Aug", "Sept", "Oct", "Nov", "Dec"];
-
   //setting open and close month and performing logic to create array of months
-
+  //This is required because can have months that are closed in summer so opening month is numerically higher
+  //than closing month.
   var openClose = [false, false, false, false, false, false, false, false, false, false, false, false];
   for (i=0;i<12;i++) {
     if ((closeMonth-openMonth)<0) {
@@ -64,26 +59,22 @@ function initPlotCreate(courseData, courseSelect) {
     };
 
     }
-  console.log(openClose);
 
-
-
+    //all months will have same size wedge.  Information conveyed by color
   var fraction = [1,1,1,1,1,1,1,1,1,1,1,1];//all months have equal size in plot
   var colorBar = openClose.map(setColor);
 
   //function below is used to set color based on open (green) or closed (red)
   function setColor(month) {
       if (month){
-          return "rgba(0,255,0,1)"
+          return "rgba(0,255,0,1)"//open month is green
       }
       else {
-          return "rgba(255,0,0,1)"
+          return "rgba(255,0,0,1)"//close month is red
       };
   };
 
-  //console.log(colorBar);
-
-  //setting up data set
+   //setting up data set and details for plot
   data = {
       datasets:[{
           data: fraction,
@@ -92,11 +83,12 @@ function initPlotCreate(courseData, courseSelect) {
       labels: months
 
   }
+  //charting library for doughnut comes from Chart.js
 
   //plug in below is required to have data labels (i.e. months) display in plot
   Chart.defaults.global.plugins.datalabels.display = true;
-  // Creating doughnut chart
 
+  // Creating doughnut chart
   var ctx = document.getElementById('doughnut');//locate ID doughnut where chart to be placed in DOM
   //creating new chart
   var myDoughnutChart = new Chart(ctx, {
@@ -134,8 +126,11 @@ function initPlotCreate(courseData, courseSelect) {
   });
 
   //******************************************************************************************************************************** */
-  //Generic code below for radar plot 
+  //Code for parallel coordinate plot 
+  //is a great plot for showing values with widely different scales.
 
+  //setting yardage based on number of holes on course.  Have some over 18 and also odd numbers 
+  //such as less than nine.
   switch (true) {
     case courseHole < 15:
       yardageTick = [1000,2000,3000,4000,5000];
@@ -149,13 +144,13 @@ function initPlotCreate(courseData, courseSelect) {
       yardageTick = [5000,6000,7000,8000];
       yardageRange = [5000,8000];
   }
-
+//selecting plot type
   var trace = {
       type: 'parcoords',
       line: {
         color: 'red'
       },
-      
+//setting axis parameters  
       dimensions: [{
         range: yardageRange,
         //constraintrange: [1, 2],
@@ -206,46 +201,37 @@ function initPlotCreate(courseData, courseSelect) {
  
   };
      
-  //};
+
+  //this function creates the updated plots based on clicks from the user of the site
+  //only receives row containing course of interest - different than original plot
+  // below is routine for generating updated plots
   function plotCreate(courseData, courseSelect) {
     //courseData = getData();
     console.log(`returned course data`);
     console.log(courseData);
-    //d3.csv("./results/course_subset2.csv").then(function(courseData) {
-    // console.log(`length of course data ${courseData.length}`)
-    // console.log(`first element in courseData ${courseData[3]}`)
-    //for (var i=0; i < courseData.length; i++) {
-        var course = courseData;
-        //console.log(course);
-        console.log(`the course selected is ${courseSelect}`);
-        console.log(courseData.course_id);
-        if (parseInt(courseData.course_id) === courseSelect) {
-          //console.log(courseData);
-          var courseHole = parseInt(courseData.hole);
-          var forwardYards = parseInt(courseData.forward_yards);
-          var forwardSlope = parseInt(courseData.forward_slope);
-          var middleYards = parseInt(courseData.middle_yards);
-          var middleSlope = parseInt(courseData.middle_slope);
-          var championshipYards = parseInt(courseData.championship_yards);
-          var championshipSlope = parseInt(courseData.championship_slope);
-          var courseName = courseData.course
-          var openMonth = parseInt(courseData.beg_mnth);
-          console.log(openMonth);
-          var closeMonth = parseInt(courseData.end_mnth);
-          console.log(closeMonth);
-        }
-    
-        
-    
-
-  
+    console.log(`the course selected is ${courseSelect}`);
+    //if (parseInt(courseData.course_id) === courseSelect) {
+    var courseHole = parseInt(courseData.hole);
+    var forwardYards = parseInt(courseData.forward_yards);
+    var forwardSlope = parseInt(courseData.forward_slope);
+    var middleYards = parseInt(courseData.middle_yards);
+    var middleSlope = parseInt(courseData.middle_slope);
+    var championshipYards = parseInt(courseData.championship_yards);
+    var championshipSlope = parseInt(courseData.championship_slope);
+    var courseName = courseData.course
+    var openMonth = parseInt(courseData.beg_mnth);
+    console.log(openMonth);
+    var closeMonth = parseInt(courseData.end_mnth);
+    console.log(closeMonth);
+    //}
+     
   //******************************************************************************************************************************** */
   // Code below generates a doughnut plot to visualize golf season
   // Setting up initial variables for demonstration.  these will need to be replaced with data from Flask
   var months = ["Jan", "Feb", "Mar", "Apr","May", "Jun", "July", "Aug", "Sept", "Oct", "Nov", "Dec"];
 
   //setting open and close month and performing logic to create array of months
-
+  //logic below is to account for regions where courses are closed in summer due to extreme heat
   var openClose = [false, false, false, false, false, false, false, false, false, false, false, false];
   for (i=0;i<12;i++) {
     if ((closeMonth-openMonth)<0) {
@@ -260,24 +246,22 @@ function initPlotCreate(courseData, courseSelect) {
     };
 
     }
-  console.log(openClose);
+  // console.log(openClose);
 
-
-
+  //setting all wedges to have same size - information contained in color
   var fraction = [1,1,1,1,1,1,1,1,1,1,1,1];//all months have equal size in plot
   var colorBar = openClose.map(setColor);
 
   //function below is used to set color based on open (green) or closed (red)
   function setColor(month) {
       if (month){
-          return "rgba(0,255,0,1)"
+          return "rgba(0,255,0,1)"//open or true is green
       }
       else {
-          return "rgba(255,0,0,1)"
+          return "rgba(255,0,0,1)"//close or false is red
       };
   };
 
-  //console.log(colorBar);
 
   //setting up data set
   data = {
@@ -290,6 +274,7 @@ function initPlotCreate(courseData, courseSelect) {
   }
 
   //plug in below is required to have data labels (i.e. months) display in plot
+  //plot for doughnut uses Chart.js
   Chart.defaults.global.plugins.datalabels.display = true;
   // Creating doughnut chart
 
@@ -330,8 +315,9 @@ function initPlotCreate(courseData, courseSelect) {
   });
 
   //******************************************************************************************************************************** */
-  //Generic code below for radar plot 
-
+  //Code Below for Parallel Coordinate Plot.  Coordinate plot comes from Plotly library
+  //Below sets up ranges for inidividual axis for conveying information.
+  //Need filtering because scale of yardage should change with number of holes.
   switch (true) {
     case courseHole < 15:
       yardageTick = [1000,2000,3000,4000,5000];
