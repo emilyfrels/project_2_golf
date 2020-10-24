@@ -97,7 +97,6 @@ function mapCreate(courseData) {
 
         var golf_info = courseData[i];
 
-        var courseId = golf_info.course_id;
 
         var lat = golf_info.lat;
         var lng = golf_info.lng;

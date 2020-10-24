@@ -85,14 +85,20 @@ table {
 
 #form {
   position: center;
-  width: 600px;
+  width: 450px;;
 
 }
 
 #filter-btn {
   box-shadow: 0 0 3px;
   border-radius: 4px;
-  align-content: center;;
+  align-content: center;
+}
+
+#filter-btn-handicap {
+  box-shadow: 0 0 3px;
+  border-radius: 4px;
+  align-content: center;
 }
 
 panel {
@@ -105,4 +111,8 @@ form-group {
 
 button {
   position: center;
+}
+
+output {
+  display: inline;
 }
