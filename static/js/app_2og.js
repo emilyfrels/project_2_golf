@@ -184,7 +184,7 @@ function mapCreate(courseData) {
         // show popup on mouseover
         marker.on('mouseover', function(event) {
             console.log(c.course_id);
-            plotCreate(courseData, c.course_id)
+            plotCreate(c, c.course_id)
             marker.openPopup();
             
             
