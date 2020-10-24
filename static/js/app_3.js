@@ -123,7 +123,7 @@ function runEnterHandicap() {
     var output = ((scoreInputValue - courseInputValue) * 113) / slopeInputValue;
     console.log(`Handicap output: ${output}`);
 
-    document.getElementById("output").innerHTML = "<h5>Your Handicap: </h5>" + output.toFixed(2);
+    document.getElementById("output").innerHTML = "<h5>Your Handicap: </h5>" + output.toFixed(1);
 
 }
 
