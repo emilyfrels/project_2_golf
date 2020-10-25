@@ -7,11 +7,14 @@ Golf Information Kiosk
 
     The ultimate golf road trip
     
-    The beating heart of America lies in its great middle and the pulsing artery of the nation is the Mississippi River
+    The beating heart of America lies in its great middle and the pulsing artery 
+    of the nation is the Mississippi River
     
-    It stretches from its headwaters in icy Lake Itasca in Northwestern Minnesota and flows more than 2,300 miles to the Golf of Mexico
+    It stretches from its headwaters in icy Lake Itasca in Northwestern Minnesota 
+    and flows more than 2,300 miles to the Golf of Mexico
     
-    An opportunity to discover America through it’s golf courses and experience a wide range of American regional culture
+    An opportunity to discover America through it’s golf courses and experience 
+    a wide range of American regional culture
 
 ## Source
 
@@ -23,7 +26,8 @@ Detailed information on golf courses with green fees range and tees, this comple
 
     Step 1: Extract, clean and transform the input dataset (golf_ETL.ipynb)
 
-        Before running this Jupyter notebook, make sure that you update the config.py file with a Google Map API Key as gkey
+        Before running this Jupyter notebook, make sure that you update the 
+        config.py file with a Google Map API Key as gkey
 
     Step 2: Load the golf details into a PostgreSQL database (golf_db_load.ipynb)
 
@@ -33,7 +37,8 @@ Detailed information on golf courses with green fees range and tees, this comple
 
             2. run schema.sql to create the table in the new database
 
-            3. use the config.py file to store username and password for the new database you just created - it should look like this
+            3. use the config.py file to store username and password for 
+               the new database you just created - it should look like this
 
                 username = "postgres"
                 password = "mypassword"
@@ -45,5 +50,9 @@ Detailed information on golf courses with green fees range and tees, this comple
     Step 4: Happy browsing the Mississippi River Golf Adventure information kiosk
 
         Use Google Chrome to open the localhost URL
+        
+        Follow the Mississippi River from Minnesota to Louisiana
+        
+        Plan your next Great River Road trip and explore the USA even more
 
  
