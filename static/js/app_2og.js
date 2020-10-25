@@ -178,7 +178,7 @@ function mapCreate(courseData) {
             
         
         // add popup to selected marker
-        marker.bindPopup("<h6>" + c.course + "</h6> <hr> <p><strong>Address: </strong></br>" + c.street + "<br>" + c.city + ", " + c.state + " " + c.zip_code + "<br><strong>Phone: </strong>" + c.phone + "</p><p><strong>Access: </strong>" + c.public_private + "</br><strong>Holes: </strong>" + c.hole + "</br><strong>Rental Cart Available: </strong>" + c.rental_cart_available + "</br><strong>Rental Clubs Available: </strong>" + c.rental_club +"<br><strong>Golf Season: </strong>" + c.golf_season + "<br><strong>Range: </strong>" + c.range + "<br><strong>Pro in House: </strong>" + c.pro_in_House + "<br><strong>Architect: </strong>" + c.architect + "<p>")
+        marker.bindPopup("<h6>" + c.course + "</h6> <hr> <p><strong>Address: </strong></br>" + c.street + "<br>" + c.city + ", " + c.state + " " + c.zip_code + "<br><strong>Phone: </strong>" + c.phone + "</p><p><strong>Access: </strong>" + c.public_private + "</br><strong>Holes: </strong>" + c.hole + "</br><strong>Rental Cart Available: </strong>" + c.rental_cart_available + "</br><strong>Rental Clubs Available: </strong>" + c.rental_club +"<br><strong>Golf Season: </strong>" + c.golf_season + "<br><strong>Range: </strong>" + c.range + "<br><strong>Pro in House: </strong>" + c.pro_in_house + "<br><strong>Architect: </strong>" + c.architect + "<p>")
         .addTo(myMap);
 
         // show popup on mouseover
