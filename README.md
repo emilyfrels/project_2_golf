@@ -25,17 +25,17 @@ Detailed information on golf courses with green fees range and tees, this comple
 
         Before running this Jupyter notebook, make sure that you update the config.py file with a Google Map API Key as gkey
 
-    Step 2 : To load the golf details into a PostgreSQL database, run golf_db_load.ipynb
+    Step 2 : Load the golf details into a PostgreSQL database (golf_db_load.ipynb)
 
         Before running the load process, follow these steps:
 
-        create a new database in ProstgreSQL and name it Golf
+            1. create a new database in ProstgreSQL and name it Golf
 
-        run schema.sql to create the table in the new database
+            2. run schema.sql to create the table in the new database
 
-        use a config.py file to store username and password for the new database you just created - it should look something like this
+            3. use a config.py file to store username and password for the new database you just created - it should look something like this
 
-            username = "postgres"
-            password = "mypassword"
+                username = "postgres"
+                password = "mypassword"
 
 
