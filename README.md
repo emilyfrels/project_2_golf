@@ -25,7 +25,7 @@ Detailed information on golf courses with green fees range and tees, this comple
 
         Before running this Jupyter notebook, make sure that you update the config.py file with a Google Map API Key as gkey
 
-    Step 2 : Load the golf details into a PostgreSQL database (golf_db_load.ipynb)
+    Step 2: Load the golf details into a PostgreSQL database (golf_db_load.ipynb)
 
         Before running the load process, follow these steps:
 
