@@ -3,13 +3,11 @@
 Team: Jeff Brown, Emily Frels, Jeanine Vincent
 
 ## Project Description
-The ultimate golf road trip
-
-The beating heart of America lies in its great middle and the pulsing artery of the nation is the Mississippi River 
-
-It stretches from its headwaters in icy Lake Itasca in Northwestern Minnesota and flows more than 2,300 miles to the Golf of Mexico
-
-An opportunity to discover America through it’s golf courses and experience a wide range of American regional culture
+Golf Information Kiosk
+     The ultimate golf road trip
+     The beating heart of America lies in its great middle and the pulsing artery of the nation is the Mississippi River 
+     It stretches from its headwaters in icy Lake Itasca in Northwestern Minnesota and flows more than 2,300 miles to the Golf of Mexico
+     An opportunity to discover America through it’s golf courses and experience a wide range of American regional culture
 
 ## Source
 
