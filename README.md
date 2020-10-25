@@ -38,4 +38,12 @@ Detailed information on golf courses with green fees range and tees, this comple
                 username = "postgres"
                 password = "mypassword"
 
+    Step 3: Use Flask as web server
 
+        At the root directory of this project, run python app.py
+
+    Step 4: Happy browsing the Mississippi River Golf Adventure information kiosk
+
+        Use Google Chrome to open the localhost URL
+
+ 
