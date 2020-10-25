@@ -21,21 +21,21 @@ Detailed information on golf courses with green fees range and tees, this comple
 
 ## Instructions:
 
-Step 1: Extract, clean and transform the input dataset (golf_ETL.ipynb)
+    Step 1: Extract, clean and transform the input dataset (golf_ETL.ipynb)
 
-Before running this Jupyter notebook, make sure that you update the config.py file with a Google Map API Key as gkey
+        Before running this Jupyter notebook, make sure that you update the config.py file with a Google Map API Key as gkey
 
-Step 2 : To load the golf details into a PostgreSQL database, run golf_db_load.ipynb
+    Step 2 : To load the golf details into a PostgreSQL database, run golf_db_load.ipynb
 
-Before running the load process, follow these steps:
+        Before running the load process, follow these steps:
 
-create a new database in ProstgreSQL and name it Golf
+        create a new database in ProstgreSQL and name it Golf
 
-run schema.sql to create the table in the new database
+        run schema.sql to create the table in the new database
 
-use a config.py file to store username and password for the new database you just created - it should look something like this
+        use a config.py file to store username and password for the new database you just created - it should look something like this
 
- username = "postgres"
- password = "mypassword"
+            username = "postgres"
+            password = "mypassword"
 
 
