@@ -33,7 +33,7 @@ Detailed information on golf courses with green fees range and tees, this comple
 
             2. run schema.sql to create the table in the new database
 
-            3. use a config.py file to store username and password for the new database you just created - it should look like this
+            3. use the config.py file to store username and password for the new database you just created - it should look like this
 
                 username = "postgres"
                 password = "mypassword"
